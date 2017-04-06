@@ -1,0 +1,78 @@
+/*UTILS*/
+//Colors
+$white: 				rgb(255, 255, 255);
+$black:					rgb(0, 0, 0);
+$red:					rgb(231, 76, 60);
+$yellow:				rgb(241, 196, 15);
+$blue:					rgb(52, 152, 219);
+$green:					rgb(46, 204, 113);
+$orange:				rgb(230, 126, 34);
+$grey:					rgb(236, 240, 241);
+
+//Gradient
+
+
+/*GRID*/
+//Grid gutter
+$gutter:				0 15px !default;
+
+//Grid breakpoint
+$mobile-small:			 320px;
+$mobile-large:			 480px; 
+$tablet-small:			 640px;
+$tablet-medium:			 768px;
+$tablet-large:			 992px;
+$screen-small:			1024px;
+$screen-large:			1200px;
+$desktop-small:		 	1440px;
+$desktop-large: 		1920px;
+
+//Grid column number
+$columns: 				12 !default;
+
+
+/*TYPOGRAPHY*/
+//Fonts family
+$openSans: 				"Open Sans", sans-serif;
+
+//Fonts weight
+$font-black:			900;
+$font-bold: 			700;
+$font-regular: 			400;
+$font-light: 			300;
+$font-xlight:			100;
+
+//Fonts color
+$font-black: 			$black;
+$font-white: 			$white;
+$font-danger:			$red;
+$font-warning:			$orange;
+$font-success:			$green;
+$font-info:				$blue;
+$font-muted:			$grey;
+
+//Fonts size em
+$font-big:				2.25em;
+$font-large:			1.875em;
+$font-medium: 			1.125em;
+$font-normal:			1em;
+$font-little:			0.875em;
+
+//Fonts default size
+$font-default:			16px !default;
+
+//Fonts transform
+$font-upper: 			uppercase;
+$font-lower:			lowercase;
+
+//Fonts style
+$font-normal: 			normal;
+$font-italic:			italic;
+
+//Titles
+$h1:					36px;
+$h2:					30px;
+$h3:					24px;
+$h4:					18px;
+$h5:					16px;
+$h6:					14px;

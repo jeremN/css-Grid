@@ -1,0 +1,53 @@
+%col{
+
+	float: left;
+	position: relative;
+	padding: $gutter;
+	min-height: 1px;
+}
+
+%col-center{
+	margin: 0 auto;
+	float: none;
+}
+
+%bg-image {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+%btn{
+	background: none;
+	text-shadow: none;
+	box-shadow: none;
+	width: auto;
+	margin : auto;
+	transition: background 0.3s ease-in;
+
+}
+
+%btn-hover{
+	
+	&:hover, 
+	&:focus, 
+	&:active,
+	&:active:hover, 
+	&:active:focus, 
+	&:active.focus,
+	&.active,
+	&.active:hover, 
+	&.active:focus, 
+	&.active.focus{
+		background: $white;
+		border-color: $white;
+		color: $white;	
+		outline: none;
+		box-shadow: none;
+	}
+}
+
+%border-yellow{
+	border: 2px solid white;
+	border-radius: 20px;
+}

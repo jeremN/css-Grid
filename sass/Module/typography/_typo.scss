@@ -1,0 +1,88 @@
+//Default Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,400,700');
+
+//Body default typo style
+body{
+	font-size: $font-default;
+	font-weight: $font-regular;
+	font-style: $font-normal;
+	line-height: 1.45;
+}
+
+//Headings size
+h1{font-size: $h1;}
+h2{font-size: $h2;}
+h3{font-size: $h3;}
+h4{font-size: $h4;}
+h5{font-size: $h5;}
+h6{font-size: $h6;}
+
+//Font weight
+.font-bold{
+	font-weight: $font-bold;
+}
+.font-regular{
+	font-weight: $font-regular;
+}
+.font-black{
+	font-weight: $font-black,
+}
+.font-light{
+	font-weight: $font-light;
+}
+
+//Font style
+.font-italic{
+	font-style: $font-italic;
+}
+.font-normal{
+	font-style:: $font-normal;
+}
+
+//Font transform
+.font-uppercase{
+	text-transform: $font-upper;
+}
+.font-lowercase{
+	text-transform: $font-lower;
+}
+
+//Text align
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.text-justify{
+	text-align: justify;
+}
+.text-nowrap{
+	whitespace: nowrap;
+}
+
+//Text color utilities
+.text-muted{
+	color: $font-muted;
+}
+.text-success{
+	color: $font-success;
+}
+.text-warning{
+	color: $font-warning;
+}
+.text-danger{
+	color: $font-danger;
+}
+.text-info{
+	color: $font-info;
+}
+
+
+//Small & Strong balise
+small{@extend h6;}
+
+strong{@extend .font-bold;}

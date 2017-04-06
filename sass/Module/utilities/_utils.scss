@@ -1,0 +1,101 @@
+/*HELPERS*/
+//Float
+.pull-left{
+	float: left !important;
+}
+
+.pull-right{
+	float: right !important;
+}
+
+//Center
+.center{
+	display: block;
+	margin: 0 auto;
+}
+
+//Clearfix
+.clearfix{
+
+	&::before,
+	&::after{
+		content: '';
+		display: table;
+	}
+
+	&::after{
+		clear: both;
+	}
+}
+
+//Show & Hide content
+.show{
+	display: block !important;
+}
+
+.hide{
+	display: none !important;
+}
+
+.invisible{
+	visibility: hidden;
+}
+
+.visible{
+	visiblity: visible;
+}
+
+
+.show-xsm-block,
+.show-xsm-inline-block,
+.show-xsm-inline,
+.show-sm-block,
+.show-sm-inline-block,
+.show-sm-inline,
+.show-md-block,
+.show-md-inline-block,
+.show-md-inline,
+.show-lg-block,
+.show-lg-inline-block,
+.show-lg-inline,
+.show-xlg-block,
+.show-xlg-inline-block,
+.show-xlg-inline,
+.hidden-xxsm-block,
+.hidden-xxsm-inline-block,
+.hidden-xxsm-inline{
+	display: none;
+}
+
+.show-xxsm-block,
+.hidden-xsm-block,
+.hidden-sm-block,
+.hidden-md-block,
+.hidden-lg-block,
+.hidden-xlg-block{
+	display: block;
+}
+
+.show-xxsm-inline-block,
+.hidden-xsm-inline-block,
+.hidden-sm-inline-block,
+.hidden-md-inline-block,
+.hidden-lg-inline-block,
+.hidden-xlg-inline-block{
+	display: inline-block;
+}
+
+.show-xxsm-inline,
+.hidden-xsm-inline,
+.hidden-sm-inline,
+.hidden-md-inline,
+.hidden-lg-inline,
+.hidden-xlg-inline{
+	display: inline;
+}
+
+//Image
+.img-fluid{
+	width: 100%;
+	max-width: 100%;
+}

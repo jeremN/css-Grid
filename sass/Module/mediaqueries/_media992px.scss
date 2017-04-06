@@ -1,0 +1,36 @@
+@media screen and (min-width: $tablet-large){
+	//Container
+	.container{
+		max-width: 960px;
+	}
+
+	//Columns
+	@include responsive-columns('md');
+
+	//Display classes
+	.show-sm-block,
+	.show-sm-inline-block,
+	.show-sm-inline,
+	.hidden-md-block,
+	.hidden-md-inline-block,
+	.hidden-md-inline{
+		display: none;
+	}
+
+	.show-md-block,
+	.hidden-sm-block{
+		display: block;
+	}
+
+	.show-md-inline-block{,
+	.hidden-sm-inline-block{
+		display: inline-block;
+	}
+
+	.show-md-inline,
+	.hidden-sm-inline{
+		display: inline;
+	}
+
+
+}

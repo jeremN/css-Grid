@@ -1,0 +1,35 @@
+@media screen and (min-width: $tablet-small){
+	
+	//Container
+	.container{
+		max-width: 640px;
+	}
+
+	//Columns
+	@include responsive-columns('xsm');
+
+	//Display classes
+	.show-xxsm-block,
+	.show-xxsm-inline-block,
+	.show-xxsm-inline,
+	.hidden-xsm-block,
+	.hidden-xsm-inline-block,
+	.hidden-xsm-inline{
+		display: none;
+	}
+
+	.show-xsm-block,
+	.hidden-xxsm-block{
+		display: block;
+	}
+
+	.show-xsm-inline-block,
+	.hidden-xxsm-inline-block{
+		display: inline-block;
+	}
+
+	.show-xsm-inline,
+	.hidden-xxsm-inline{
+		display: inline;
+	}
+}

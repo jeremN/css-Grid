@@ -1,0 +1,5 @@
+//Calculate size
+@function calculateSize($size, $unit) {
+	$remSize: $size / 16px;
+	@return $remSize * 1$unit;
+}

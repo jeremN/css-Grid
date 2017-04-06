@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+
+/*GRID*/
+//Container
+.fluid-container{
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 320px;
+	background: red;
+	padding: $gutter;
+}
+
+//Row
+.row{
+	width: 100%;
+	@extend clearfix;
+}
+
+//Columns
+@for $i from 1 through $columns{
+	.col-xxsm-#{$i}{ @extend %col; },
+	.col-xsm-#{$i}{ @extend %col; },
+	.col-sm-#{$i}{ @extend %col; },
+	.col-md-#{$i}{ @extend %col; },
+	.col-lg-#{$i}{ @extend %col; },
+	.col-xlg-#{$i}{ @extend %col; },
+}
+
+//Display classes
+

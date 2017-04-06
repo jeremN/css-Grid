@@ -1,0 +1,35 @@
+@media screen and (min-width: $screen-large){
+
+	//Container
+	.container{
+		max-width: 1140px;
+	}
+
+	//Columns
+	@include responsive-columns('lg');
+
+	//Display classes
+	.show-md-block,
+	.show-md-inline-block,
+	.show-md-inline,
+	.hidden-lg-block,
+	.hidden-lg-inline-block,
+	.hidden-lg-inline{
+		display: none;
+	}
+
+	.show-lg-block,
+	.hidden-md-block{
+		display: block;
+	}
+
+	.show-lg-inline-block{,
+	.hidden-md-inline-block{
+		display: inline-block;
+	}
+
+	.show-lg-inline,
+	.hidden-md-inline{
+		display: inline;
+	}
+}

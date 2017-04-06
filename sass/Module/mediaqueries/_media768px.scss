@@ -1,0 +1,37 @@
+@media screen and (min-width: $tablet-medium){
+
+	//Container
+	.container{
+		max-width: 720px;
+	}
+
+	//Columns
+	@include responsive-columns('sm');
+
+	//Display classes
+	.show-xsm-block,
+	.show-xsm-inline-block,
+	.show-xsm-inline,
+	.hidden-sm-block,
+	.hidden-sm-inline-block,
+	.hidden-sm-inline{
+		display: none;
+	}
+
+	.show-sm-block,
+	.hidden-xsm-block{
+		display: block;
+	}
+
+	.show-sm-inline-block,
+	.hidden-xsm-inline-block{
+		display: inline-block;
+	}
+
+	.show-sm-inline,
+	.hidden-xsm-inline{
+		display: inline;
+	}
+
+
+}
