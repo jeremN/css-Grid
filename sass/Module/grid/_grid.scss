@@ -21,17 +21,19 @@
 //Row
 .row{
 	width: 100%;
-	@extend clearfix;
+	@extend .clearfix;
 }
 
 //Columns
 @for $i from 1 through $columns{
-	.col-xxsm-#{$i}{ @extend %col; },
-	.col-xsm-#{$i}{ @extend %col; },
-	.col-sm-#{$i}{ @extend %col; },
-	.col-md-#{$i}{ @extend %col; },
-	.col-lg-#{$i}{ @extend %col; },
-	.col-xlg-#{$i}{ @extend %col; },
+	.col-xxsm-#{$i},
+	.col-xsm-#{$i},
+	.col-sm-#{$i},
+	.col-md-#{$i},
+	.col-lg-#{$i},
+	.col-xlg-#{$i}{ 
+		@extend %col; 
+	}
 }
 
 //Display classes

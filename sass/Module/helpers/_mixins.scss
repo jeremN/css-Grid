@@ -2,10 +2,10 @@
 
     @for $i from 1 through $columns{
     
-        if $i != 0{
+        @if $i != 0{
 
             .col#{$suffix}-#{$i}{
-                @extend %col; 
+
                 width: $i / $columns * 100%; 
             }
         }

@@ -44,7 +44,7 @@
 /*BREAKPOINT*/
 
 //320px xxsm
-@media screen and min-width: $mobile-small){
+@media screen and (min-width: $mobile-small){
 	//6-COLUMNS
 	.col-xxsm-1{
 		width: 16.66%;
